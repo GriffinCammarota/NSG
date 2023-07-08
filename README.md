@@ -27,9 +27,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 <h2>Actions and Observations</h2>
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
+
 <p>
   Create Some sample file shares with different permissions:
 <ol>
@@ -45,20 +43,14 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
   <ul>
     <li>On client-1, go to the shared folder (start, run, \\dc-1)</li>
     <li>Try to access the folders we just created. We should only be able to read in the read only folder, read and create files in the "write-access" folder and we shouldn't be able to open the "no access" folder</li>
   </ul>
 </p>
-<p>
-
-</p>
 <br />
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
+
 <p>
   Create an Accountants Security Group, assign permissions, and set access
 <ol>
